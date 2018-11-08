@@ -12,5 +12,9 @@
   .example-margin {
     margin: 0 10px;
   }
+
+  .mat-grid-tile{
+    overflow: auto;
+  }
   
   

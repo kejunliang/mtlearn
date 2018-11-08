@@ -14,14 +14,15 @@ import { MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from '@angular/material/button';
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import { MatGridListModule } from "@angular/material/grid-list";
-import { ChatlistComponent } from './chatlist/chatlist.component';
 import { MatListModule } from "@angular/material/list";
+import { MatTreeModule } from "@angular/material/tree";
+import { ChailistComponent } from './chailist/chailist.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginformComponent,
     HomeComponent,
-    ChatlistComponent
+    ChailistComponent, 
   ],
   imports: [
     FormsModule,
@@ -35,6 +36,7 @@ import { MatListModule } from "@angular/material/list";
     MatButtonModule,
     MatGridListModule,
     MatListModule,
+    MatTreeModule,
     AppRoutingModule
   ],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy}],

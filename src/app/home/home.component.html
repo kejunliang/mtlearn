@@ -1,7 +1,10 @@
 <mat-grid-list cols=4 rowHeight="100px" gutterSize="2px">
   <mat-grid-tile colspan="4" [style.background]="titles[0].color">1</mat-grid-tile>
-  <mat-grid-tile rowspan="4" ><app-chatlist></app-chatlist></mat-grid-tile>
-  <mat-grid-tile rowspan="4" colspan="3" [style.background]="titles[2].color">3</mat-grid-tile>
+  <mat-grid-tile rowspan="4" ><app-chailist style="width: 100%;height: 100%;"></app-chailist></mat-grid-tile>
+  <mat-grid-tile rowspan="4" colspan="3" [style.background]="titles[2].color">
+     <div>这里是聊天窗口</div>
+
+  </mat-grid-tile>
  
 
 </mat-grid-list>
